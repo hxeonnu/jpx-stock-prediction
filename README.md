@@ -66,11 +66,11 @@ AI가 생성한 코드를 그대로 사용하기보다,
 
 ## 주요 결과 및 시각화
 
-### 1. Feature Importance
-<img width="1589" height="590" alt="image" src="https://github.com/user-attachments/assets/bb1b1931-cf94-4cf4-91ac-fe9fb3b49c55" />
+### 1. Feature Coefficient 그래프 & 실제 Target vs Prediction 산점도 - Linear Regression
+<img width="1589" height="590" alt="image" src="https://github.com/user-attachments/assets/98d5a395-cf7c-4eb1-8753-b9de8d7fb2c7" />
 
-### 2. Actual Target vs Prediction
-<img width="1589" height="590" alt="image" src="https://github.com/user-attachments/assets/5178dde2-a863-478b-9e2e-4c6c889b22bf" />
+### 2. Feature Coefficient 그래프 & 실제 Target vs Prediction 산점도 - SGDRegressor
+<img width="1589" height="590" alt="image" src="https://github.com/user-attachments/assets/3a7df8d7-58ad-4025-b504-82685ba8dd42" />
 
 ### 3. 종목 Ranking 결과
 <img width="1489" height="590" alt="image" src="https://github.com/user-attachments/assets/5975a043-ea5d-4908-a37a-364fb6c9a05b" />
