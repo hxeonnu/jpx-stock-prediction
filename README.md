@@ -63,3 +63,15 @@ AI가 생성한 코드를 그대로 사용하기보다,
 - Ridge, Lasso 등 다른 회귀 모델 비교
 - Random Forest, XGBoost 적용
 - Sharpe Ratio 기반 평가
+
+## 주요 결과 및 시각화
+
+### 1. Feature Importance
+<img width="1589" height="590" alt="image" src="https://github.com/user-attachments/assets/bb1b1931-cf94-4cf4-91ac-fe9fb3b49c55" />
+
+### 2. Actual Target vs Prediction
+<img width="1589" height="590" alt="image" src="https://github.com/user-attachments/assets/5178dde2-a863-478b-9e2e-4c6c889b22bf" />
+
+### 3. 종목 Ranking 결과
+<img width="1489" height="590" alt="image" src="https://github.com/user-attachments/assets/5975a043-ea5d-4908-a37a-364fb6c9a05b" />
+
