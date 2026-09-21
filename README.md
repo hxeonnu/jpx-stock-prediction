@@ -39,8 +39,17 @@ JPX 주가 데이터를 활용해 미래 수익률을 예측하고,
 - Volatility_20
 
 ## 모델
-- Linear Regression
-- SGDRegressor
+
+### Linear Regression
+기본 선형 회귀 모델을 이용하여 각 Feature와 미래 수익률 간의
+선형 관계를 학습하였다.
+
+### SGDRegressor
+경사 하강법을 이용해 회귀계수를 반복적으로 학습하는
+SGDRegressor를 추가로 적용하여 Linear Regression과 성능을 비교하였다.
+
+두 모델은 MSE와 RMSE에서 거의 비슷한 결과를 보였으며,
+Linear Regression이 근소하게 낮은 오차를 기록하였다.
 
 ## 결과
 모델을 이용해 미래 수익률을 예측하고,
